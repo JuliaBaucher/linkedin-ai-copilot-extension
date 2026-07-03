@@ -149,3 +149,33 @@ linkedin-ai-copilot-extension/
 - The extension does not use a backend or external database.
 - Settings remain in local Chrome extension storage.
 - Insert only places generated text in the comment editor. The user must manually review and click Post.
+
+  #install on Mobile
+
+  On your Windows PC
+Open Chrome.
+Go to: remotedesktop.google.com/access
+Click Set up remote access.
+Install the Chrome Remote Desktop extension if asked:   https://remotedesktop.google.com/headless
+Give your PC a name, for example: Julia-PC.
+Create a PIN.
+Keep your PC on, connected to internet, and not sleeping.
+On your phone
+Install Chrome Remote Desktop app:
+Android: Google Play
+iPhone: App Store
+Log in with the same Google account.
+Tap your PC name: Julia-PC.
+Enter the PIN.
+Your Windows desktop opens on your phone.
+Use your LinkedIn extension from mobile
+On the remote desktop, open Chrome.
+Open linkedin.com.
+Make sure your extension is enabled.
+Click in a LinkedIn comment box.
+Tap the Sparkle button.
+Generate comment.
+Insert comment.
+Manually review and click Post.
+
+

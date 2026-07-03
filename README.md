@@ -1,5 +1,6 @@
 # LinkedIn AI Copilot - Phase 1
 
+
 LinkedIn success depends on the first 60–90 minutes after publishing. Posts that receive 5–10 thoughtful comments early are far more likely to reach a wider audience—but busy professionals rarely have time to read posts, research linked articles, and write meaningful comments consistently.
 
 LinkedIn AI Copilot solves this problem. It is a unique AI Chrome extension that works on desktop and mobile (via remote desktop), reads LinkedIn posts and linked external articles, and generates personalized, high-quality comments in seconds. It helps busy professionals save time, build stronger communities, increase engagement, and maximize the visibility of their own posts.

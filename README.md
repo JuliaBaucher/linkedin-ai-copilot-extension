@@ -150,41 +150,142 @@ linkedin-ai-copilot-extension/
 - Settings remain in local Chrome extension storage.
 - Insert only places generated text in the comment editor. The user must manually review and click Post.
 
-#MOBILE
+# Using the Extension from a Mobile Phone
 
-  On your Windows PC
-```Open Chrome.
-Install chrome extenstions: https://remotedesktop.google.com/headless
-Go to: remotedesktop.google.com/access
-Click Set up remote access.
-Install the Chrome Remote Desktop extension if asked:   
+Although Chrome extensions do not run directly on mobile Chrome, you can use the extension by remotely controlling your desktop computer with Chrome Remote Desktop.
 
-https://remotedesktop.google.com/access
+## One-time setup on your PC
 
+1. Install Chrome Remote Desktop.
 
-Give your PC a name, for example: Julia-PC.
-Create a PIN.
-Keep your PC on, connected to internet, and not sleeping. ```
+   https://remotedesktop.google.com/access
 
-#On your phone
-```Install Chrome Remote Desktop app:
-Android: Google Play
-iPhone: App Store
-Log in with the same Google account.
-Tap your PC name: Julia-PC.
-Enter the PIN.
-Your Windows desktop opens on your phone.
-Use your LinkedIn extension from mobile
-On the remote desktop, open Chrome. ```
+2. Click **Set up remote access**.
 
+3. Install the Chrome Remote Desktop Host if prompted.
 
-#Open linkedin.com.
-Make sure your extension is enabled.
-Click in a LinkedIn comment box.
-Tap the Sparkle button.
-Generate comment.
-Insert comment.
-Manually review and click Post.
+4. Give your computer a name.
+
+   Example:
+
+   ```
+   julia
+   ```
+
+5. Create a secure PIN.
+
+   > Do **not** store your PIN in this repository or share it publicly.
+
+6. Keep your computer:
+
+   - Powered on
+   - Connected to the Internet
+   - Awake (disable automatic sleep while using remote access)
+
+---
+
+## Install the mobile app
+
+Install **Chrome Remote Desktop** on your phone.
+
+- Android: Google Play Store
+- iPhone: Apple App Store
+
+Log in using the **same Google account** used on your desktop.
+
+---
+
+## Connect from your phone
+
+1. Open Chrome Remote Desktop.
+2. Select your computer.
+
+   Example:
+
+   ```
+   julia
+   ```
+
+3. Enter your PIN.
+4. Your Windows desktop will appear on your phone.
+
+---
+
+## Using the LinkedIn AI Copilot
+
+Inside the remote desktop session:
+
+1. Open **Chrome** running on your PC.
+2. Navigate to:
+
+   ```
+   https://www.linkedin.com
+   ```
+
+3. Make sure the LinkedIn AI Copilot extension is enabled.
+4. Click inside a LinkedIn comment box.
+5. Tap the ✨ Sparkle button.
+6. Generate AI comments.
+7. Choose **Insert**.
+8. Review the generated draft.
+9. Manually click **Post** on LinkedIn.
+
+The extension never publishes comments automatically.
+
+---
+
+## Useful Remote Desktop Tips
+
+### Use "Send text"
+
+At the bottom of the Chrome Remote Desktop mobile app you'll find a **Send text** field.
+
+This lets you type using your phone's keyboard and send the text directly to your desktop computer.
+
+It's extremely useful for:
+
+- URLs
+- Search queries
+- Long prompts
+- API keys
+- Passwords
+- Editing LinkedIn comments
+
+Example:
+
+Type
+
+```
+https://www.linkedin.com
+```
+
+into **Send text** instead of typing it character-by-character on the remote desktop.
+
+---
+
+### Use Landscape Mode
+
+Rotate your phone horizontally for a much larger desktop view.
+
+---
+
+### Use Trackpad Mode
+
+Trackpad mode makes it much easier to click small LinkedIn controls, including the Sparkle button.
+
+---
+
+### Zoom
+
+Use pinch-to-zoom when interacting with LinkedIn comment boxes or AI popups.
+
+---
+
+## Security
+
+- Never store your OpenAI API key or Remote Desktop PIN in GitHub.
+- Never share your Remote Desktop PIN publicly.
+- Always manually review AI-generated comments before posting.
 
 Computer Name: julia
 pin 240179

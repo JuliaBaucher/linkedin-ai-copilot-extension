@@ -4,7 +4,6 @@ Chrome Extension Manifest V3 MVP for LinkedIn. It helps users understand LinkedI
 
 ```
 \\wsl$\Ubuntu\home\juliabaucher\projects\linkedin-ai-copilot-extension
-
 ```
 ## Phase 1 Scope
 

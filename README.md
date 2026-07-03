@@ -1,6 +1,6 @@
 # LinkedIn AI Copilot - Phase 1
 
-Chrome Extension Manifest V3 MVP for LinkedIn. It helps users understand LinkedIn posts/articles and draft useful comments. It never clicks Post, submits, or publishes anything.
+LinkedIn AI Copilot is a unique AI Chrome extension that works on desktop and mobile (via remote desktop). It reads LinkedIn posts and linked external articles to generate personalized, high-quality comments. Built for busy professionals, it saves time, increases engagement, and helps attract more attention to their LinkedIn posts.
 
 ```
 \\wsl$\Ubuntu\home\juliabaucher\projects\linkedin-ai-copilot-extension

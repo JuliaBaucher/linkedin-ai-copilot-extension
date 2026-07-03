@@ -2,8 +2,10 @@
 
 Chrome Extension Manifest V3 MVP for LinkedIn. It helps users understand LinkedIn posts/articles and draft useful comments. It never clicks Post, submits, or publishes anything.
 
-*\\wsl$\Ubuntu\home\juliabaucher\projects\linkedin-ai-copilot-extension*
+```
+\\wsl$\Ubuntu\home\juliabaucher\projects\linkedin-ai-copilot-extension
 
+```
 ## Phase 1 Scope
 
 Built:
